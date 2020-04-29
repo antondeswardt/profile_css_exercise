@@ -33,6 +33,11 @@ h3 {
 
 a {
   color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 p {
@@ -125,23 +130,25 @@ hr {
   margin: 0 auto 2em auto;
 }
 
-.footer-link {
-}
-
 .copyrights {
-  color: #EAF6F6;
+  color: #035aa6;
   font-size: 0.7rem;
   width: 50%;
   margin: 0 auto;
 }
 
-/****************  https://www.cssportal.com/css3-button-generator/   *******************************/
+.li-anchor {
+  margin: auto 3em;
+}
+
+/*******  https://www.cssportal.com/css3-button-generator/  RULES *******************************/
+/******* THIS WORKED FOR ME .......... **************/
 
 .contact-button {
   font-family: verdana;
   color: #FFF7F5 !important;
   font-size: 17px;
-  text-shadow: 1px 1px 0px #7CACDE;
+  text-shadow: 1px 1px 0 #7CACDE;
   box-shadow: 1px 1px 1px #BEE2F9;
   padding: 10px 25px;
   -moz-border-radius: 10px;
@@ -165,6 +172,7 @@ hr {
 
 
 /******* https://cssbuttoncreator.com/ RULES *********/
+/******* DID NOT WORK FOR ME .... *******/
 
 
 .BUTTON_BCA {
@@ -177,9 +185,9 @@ hr {
    font-weight: 100;
    padding: 40px;
    background-color: #66BFBF;
-   box-shadow: 1px 1px 20px 0px #000000;
-   -webkit-box-shadow: 1px 1px 20px 0px #000000;
-   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
    border: solid #337FED 1px;
    text-decoration: none;
    display: inline-block;
